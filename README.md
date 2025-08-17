@@ -1,6 +1,4 @@
-Got it 👍 — I’ll prepare a **professional GitHub README.md** for your project based on the text you shared. Here’s a polished version:
 
----
 
 # Integrative Multi-Omics Subtyping of Colon Adenocarcinoma Using Deep Learning and Explainable AI
 
@@ -240,10 +238,3 @@ medRxiv, 2025. Task-specific AI leverages multi-omics for precision oncology wit
 
 ScienceDirect, 2024. SHAP and LIME in melanoma multi-omics explainability. SpringerLink
 
----
-
-🔗 **GitHub Repository:** \[Add your repo link here]
-
----
-
-Would you like me to also prepare a **condensed version** (short README style for GitHub) or keep this **long scientific version** only?
