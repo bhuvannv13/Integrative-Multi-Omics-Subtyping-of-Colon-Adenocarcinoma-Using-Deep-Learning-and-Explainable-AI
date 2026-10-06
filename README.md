@@ -110,12 +110,12 @@ Together, these findings suggest **weak subtype structure** in this cohort and h
 
 ```
 .
-├── data/               # Processed input data (RNA-seq, CNV, methylation)
-├── notebooks/          # Jupyter notebooks for analysis
-├── src/                # Scripts for preprocessing, modeling, and evaluation
-├── results/            # Outputs (plots, tables, survival curves, SHAP, DE results)
-├── README.md           # Project documentation
-└── requirements.txt    # Python dependencies
+├── 24230035_RI5 (1).ipynb        # Full analysis notebook
+├── clinical_common_samples.csv   # Clinical data for the common sample set
+├── gistic_common_samples.csv     # GISTIC copy-number data for the common sample set
+├── Dataset                       # Links to the larger input files (Google Drive)
+├── LICENSE
+└── README.md
 ```
 
 ---
@@ -123,16 +123,12 @@ Together, these findings suggest **weak subtype structure** in this cohort and h
 ## 🚀 Installation & Usage
 
 ```bash
-# Clone repo
-git clone https://github.com/yourusername/Integrative-Multi-Omics-Subtyping-COAD.git
-cd Integrative-Multi-Omics-Subtyping-COAD
-
-# Install requirements
-pip install -r requirements.txt
-
-# Run analysis
-jupyter notebook notebooks/main_analysis.ipynb
+git clone https://github.com/bhuvannv13/Integrative-Multi-Omics-Subtyping-of-Colon-Adenocarcinoma-Using-Deep-Learning-and-Explainable-AI.git
+cd Integrative-Multi-Omics-Subtyping-of-Colon-Adenocarcinoma-Using-Deep-Learning-and-Explainable-AI
+jupyter notebook "24230035_RI5 (1).ipynb"
 ```
+
+The larger expression and merged multi-omics files are linked in `Dataset`. Download them and update the file paths in the notebook before running.
 
 ---
 
