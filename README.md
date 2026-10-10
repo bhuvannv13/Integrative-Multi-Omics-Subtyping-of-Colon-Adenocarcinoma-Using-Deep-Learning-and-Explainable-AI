@@ -114,6 +114,7 @@ Together, these findings suggest **weak subtype structure** in this cohort and h
 ├── clinical_common_samples.csv   # Clinical data for the common sample set
 ├── gistic_common_samples.csv     # GISTIC copy-number data for the common sample set
 ├── Dataset                       # Links to the larger input files (Google Drive)
+├── requirements.txt              # Python dependencies
 ├── LICENSE
 └── README.md
 ```
@@ -125,6 +126,7 @@ Together, these findings suggest **weak subtype structure** in this cohort and h
 ```bash
 git clone https://github.com/bhuvannv13/Integrative-Multi-Omics-Subtyping-of-Colon-Adenocarcinoma-Using-Deep-Learning-and-Explainable-AI.git
 cd Integrative-Multi-Omics-Subtyping-of-Colon-Adenocarcinoma-Using-Deep-Learning-and-Explainable-AI
+pip install -r requirements.txt
 jupyter notebook "24230035_RI5 (1).ipynb"
 ```
 
